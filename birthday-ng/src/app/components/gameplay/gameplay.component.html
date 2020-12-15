@@ -1,10 +1,12 @@
 <svg class="fullsvg" [attr.viewBox]="viewBox()">
-    <rect
-        ry="4.4840765"
-        y="2"
-        x="2"
-        height="96"
-        width="96"
-        id="rect15"
-        style="opacity:1;vector-effect:none;fill:#800080;fill-opacity:1;stroke:none;stroke-width:3.42420387;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke" />
+    <g *ngFor="let tile of shared.game.tiles; let i = index" [attr.transform]="tileTransform(i)">
+        <rect
+            ry="4.4840765"
+            y="2"
+            x="2"
+            height="96"
+            width="96"
+            id="rect15"
+            style="opacity:1;vector-effect:none;fill:#800080;fill-opacity:1;stroke:none;stroke-width:3.42420387;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke" />
+    </g>
 </svg>

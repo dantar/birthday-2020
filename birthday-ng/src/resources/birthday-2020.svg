@@ -7,6 +7,7 @@
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
    xmlns:svg="http://www.w3.org/2000/svg"
    xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    width="100"
@@ -17,7 +18,20 @@
    inkscape:version="0.92.3 (2405546, 2018-03-11)"
    sodipodi:docname="birthday-2020.svg">
   <defs
-     id="defs2" />
+     id="defs2">
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath27">
+      <rect
+         style="opacity:1;vector-effect:none;fill:#800080;fill-opacity:1;stroke:none;stroke-width:3.42420387;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
+         id="rect29"
+         width="96"
+         height="96"
+         x="2"
+         y="2"
+         ry="4.4840765" />
+    </clipPath>
+  </defs>
   <sodipodi:namedview
      id="base"
      pagecolor="#ffffff"
@@ -53,12 +67,14 @@
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1" />
-  <rect
-     style="opacity:1;vector-effect:none;fill:#800080;fill-opacity:1;stroke:none;stroke-width:3.42420387;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
-     id="rect15"
-     width="96"
-     height="96"
-     x="2"
+  <image
+     sodipodi:absref="/home/daniele/hack/git/birthday-2020/birthday-ng/src/assets/damiano-01.jpg"
      y="2"
-     ry="4.4840765" />
+     x="2"
+     id="image24"
+     xlink:href="file:///home/daniele/hack/git/birthday-2020/birthday-ng/src/assets/damiano-01.jpg"
+     preserveAspectRatio="none"
+     height="96"
+     width="96"
+     clip-path="url(#clipPath27)" />
 </svg>

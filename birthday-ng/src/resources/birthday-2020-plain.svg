@@ -5,13 +5,27 @@
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
    xmlns:svg="http://www.w3.org/2000/svg"
    xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
    id="svg8"
    version="1.1"
    viewBox="0 0 100 100"
    height="100"
    width="100">
   <defs
-     id="defs2" />
+     id="defs2">
+    <clipPath
+       id="clipPath27"
+       clipPathUnits="userSpaceOnUse">
+      <rect
+         ry="4.4840765"
+         y="2"
+         x="2"
+         height="96"
+         width="96"
+         id="rect29"
+         style="opacity:1;vector-effect:none;fill:#800080;fill-opacity:1;stroke:none;stroke-width:3.42420387;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke" />
+    </clipPath>
+  </defs>
   <metadata
      id="metadata5">
     <rdf:RDF>
@@ -26,12 +40,13 @@
   </metadata>
   <g
      id="layer1" />
-  <rect
-     ry="4.4840765"
-     y="2"
-     x="2"
-     height="96"
+  <image
+     clip-path="url(#clipPath27)"
      width="96"
-     id="rect15"
-     style="opacity:1;vector-effect:none;fill:#800080;fill-opacity:1;stroke:none;stroke-width:3.42420387;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke" />
+     height="96"
+     preserveAspectRatio="none"
+     xlink:href="file:///home/daniele/hack/git/birthday-2020/birthday-ng/src/assets/damiano-01.jpg"
+     id="image24"
+     x="2"
+     y="2" />
 </svg>

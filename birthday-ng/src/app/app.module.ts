@@ -6,11 +6,15 @@ import { AppComponent } from './app.component';
 import { ServiceWorkerModule } from '@angular/service-worker';
 import { environment } from '../environments/environment';
 import { GameplayComponent } from './components/gameplay/gameplay.component';
+import { ThemeToggleComponent } from './components/theme-toggle/theme-toggle.component';
+import { FullscreenToggleComponent } from './components/fullscreen-toggle/fullscreen-toggle.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    GameplayComponent
+    GameplayComponent,
+    ThemeToggleComponent,
+    FullscreenToggleComponent
   ],
   imports: [
     BrowserModule,

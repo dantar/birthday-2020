@@ -1,5 +1,6 @@
 import { ChangeDetectorRef, Component, OnInit } from '@angular/core';
 import { MapTile } from 'src/app/models/tilegame.model';
+import { AudioPlayService } from 'src/app/services/audio-play.service';
 import { SharedDataService } from 'src/app/services/shared-data.service';
 
 @Component({
@@ -17,6 +18,7 @@ export class GameplayComponent implements OnInit {
   constructor(
     public shared: SharedDataService,
     private changes: ChangeDetectorRef,
+    private audio: AudioPlayService,
     ) { }
 
   ngOnInit(): void {
@@ -36,6 +38,7 @@ export class GameplayComponent implements OnInit {
   }
 
   clickTile(tile: MapTile) {
+    this.audio.play('action');
     if (this.first) {
       if (this.second) {
         this.checkVisible();

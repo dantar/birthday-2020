@@ -10,8 +10,7 @@ export class SharedDataService {
   game: TileGame;
 
   alltiles = [
-    'daniele-01', 'irene-01', 'matteo-01', 'damiano-01', 'valentina-01', 'rachele-01',
-    'daniele-02', 'irene-02', 'matteo-02', 'damiano-02', 'valentina-02', 'rachele-02',
+    'daniele', 'irene', 'matteo', 'damiano', 'valentina', 'rachele', 'tutti', 'ragazzi',
   ];
 
   constructor(private games: GamesCommonService) {

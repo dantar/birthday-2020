@@ -2,38 +2,67 @@
 <svg class="fullsvg" [attr.viewBox]="viewBox()">
     <defs>
         <clipPath
-            id="clipPath27"
+            id="clipPath1010"
             clipPathUnits="userSpaceOnUse">
             <rect
-                ry="4.4840765"
-                y="2"
-                x="2"
-                height="96"
+                style="display:inline;opacity:1;vector-effect:none;fill:#ffeeaa;fill-opacity:1;stroke:none;stroke-width:9.92904472;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
+                id="rect1012"
                 width="96"
-                id="rect29"
-                style="opacity:1;vector-effect:none;fill:#800080;fill-opacity:1;stroke:none;stroke-width:3.42420387;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke" />
+                height="96"
+                x="2.0000002"
+                y="2.0000002"
+                ry="11.462687" />
         </clipPath>
-
     </defs>
     <g *ngFor="let tile of shared.game.tiles; let i = index" [attr.transform]="tileTransform(i)" (click)="clickTile(tile)">
-        <rect *ngIf="tile.state !== 'gone'"
-            ry="4.4840765"
-            y="2"
-            x="2"
-            height="96"
-            width="96"
-            id="rect15"
-            style="opacity:1;vector-effect:none;fill:#800080;fill-opacity:1;stroke:none;stroke-width:3.42420387;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke" />
-        <image *ngIf="tile.state === 'visible'"
-            clip-path="url(#clipPath27)"
-            width="96"
-            height="96"
-            preserveAspectRatio="none"
-            [attr.xlink:href]="'assets/' + tile.name + '.jpg'"
-            id="image24"
-            x="2"
-            y="2" />
-       
+        <g *ngIf="tile.state !== 'gone'">
+            <rect
+                style="opacity:1;vector-effect:none;fill:#aa8800;fill-opacity:1;stroke:none;stroke-width:9.7221899;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
+                id="rect990"
+                width="94"
+                height="94"
+                x="3"
+                y="3"
+                ry="11.223881" />
+            <rect
+                ry="11.223881"
+                y="2.9999998"
+                x="3.0000002"
+                height="94"
+                width="94"
+                id="rect1014"
+                style="display:inline;opacity:1;vector-effect:none;fill:none;fill-opacity:1;stroke:#806600;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke" />
+            <rect
+                style="display:inline;opacity:1;vector-effect:none;fill:none;fill-opacity:1;stroke:#806600;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
+                id="rect1017"
+                width="75.508888"
+                height="75.508888"
+                x="12.245554"
+                y="12.245554"
+                ry="9.0159874" />
+        </g>
+
+        <g *ngIf="tile.state === 'visible'">
+            <image
+                y="2"
+                x="2"
+                id="image24"
+                [attr.xlink:href]="'assets/' + tile.name + '.jpg'"
+                preserveAspectRatio="none"
+                height="96"
+                width="96"
+                clip-path="url(#clipPath1010)"
+                transform="matrix(0.97916667,0,0,0.97916667,1.0416667,1.0416663)" />
+            <rect
+                style="display:inline;opacity:1;vector-effect:none;fill:none;fill-opacity:1;stroke:#806600;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
+                id="rect990-4"
+                width="94"
+                height="94"
+                x="3.0000002"
+                y="2.9999998"
+                ry="11.223881" />
+        </g>
+            
     </g>
 </svg>
 <div class="panel-menu-list top-right-menu">

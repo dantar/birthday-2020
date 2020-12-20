@@ -9,6 +9,7 @@ import { GameplayComponent } from './components/gameplay/gameplay.component';
 import { ThemeToggleComponent } from './components/theme-toggle/theme-toggle.component';
 import { FullscreenToggleComponent } from './components/fullscreen-toggle/fullscreen-toggle.component';
 import { TimedScoreComponent } from './components/timed-score/timed-score.component';
+import { ThanksComponent } from './components/thanks/thanks.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { TimedScoreComponent } from './components/timed-score/timed-score.compon
     GameplayComponent,
     ThemeToggleComponent,
     FullscreenToggleComponent,
-    TimedScoreComponent
+    TimedScoreComponent,
+    ThanksComponent
   ],
   imports: [
     BrowserModule,

@@ -21,7 +21,17 @@ export class TimedScoreComponent implements OnInit {
   startTicker() {
     if (!this.ticker) {
       this.ticker = setInterval(() => {
-        this.shared.game.score++;
+        switch (this.shared.game.state) {
+          case 'running':
+            this.shared.game.score++;
+            break;
+          case 'paused':
+          case 'complete':
+            this.pauseTicker();
+            break;
+          default:
+            break;
+        }
       }, 1000);
     }
   }

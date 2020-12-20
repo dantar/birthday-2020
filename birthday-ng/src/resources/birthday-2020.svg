@@ -40,10 +40,10 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="5.6"
-     inkscape:cx="98.239313"
-     inkscape:cy="47.158865"
+     inkscape:cx="108.15227"
+     inkscape:cy="48.786698"
      inkscape:document-units="px"
-     inkscape:current-layer="layer2"
+     inkscape:current-layer="layer3"
      showgrid="false"
      units="px"
      inkscape:window-width="1853"
@@ -82,7 +82,8 @@
   <g
      inkscape:groupmode="layer"
      id="layer2"
-     inkscape:label="score">
+     inkscape:label="score"
+     style="display:none">
     <g
        id="score"
        inkscape:label="#g4556">
@@ -93,7 +94,7 @@
          style="fill:#554400;stroke-width:0.47231451" />
       <text
          xml:space="preserve"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:53.33333206px;line-height:1.25;font-family:'AR JULIAN';-inkscape-font-specification:'AR JULIAN, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#ffcc00;fill-opacity:1;stroke:#ffe680;stroke-width:6;stroke-miterlimit:4;stroke-dasharray:none;"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:53.33333206px;line-height:1.25;font-family:'AR JULIAN';-inkscape-font-specification:'AR JULIAN, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#ffcc00;fill-opacity:1;stroke:#ffe680;stroke-width:6;stroke-miterlimit:4;stroke-dasharray:none"
          x="50.337009"
          y="66.927086"
          id="text3731"><tspan
@@ -105,12 +106,75 @@
          id="text3727"
          y="66.927086"
          x="50.337009"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:53.33333206px;line-height:1.25;font-family:'AR JULIAN';-inkscape-font-specification:'AR JULIAN, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#554400;fill-opacity:1;stroke:none;"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:53.33333206px;line-height:1.25;font-family:'AR JULIAN';-inkscape-font-specification:'AR JULIAN, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#554400;fill-opacity:1;stroke:none"
          xml:space="preserve"><tspan
            y="66.927086"
            x="50.337009"
            id="tspan3725"
            sodipodi:role="line">59</tspan></text>
+    </g>
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer3"
+     inkscape:label="congrats">
+    <g
+       id="grazie"
+       inkscape:label="#g867">
+      <circle
+         r="40"
+         cy="50"
+         cx="50"
+         id="path855"
+         style="opacity:1;vector-effect:none;fill:#800000;fill-opacity:1;stroke:none;stroke-width:13.090909;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke" />
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:24.04133415px;line-height:1.25;font-family:'A Charming Font Expanded';-inkscape-font-specification:'A Charming Font Expanded, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:#800000;stroke-width:12;stroke-miterlimit:4;stroke-dasharray:none;stroke-linecap:round;stroke-linejoin:round"
+         x="54.032322"
+         y="38.877361"
+         id="text841"><tspan
+           sodipodi:role="line"
+           id="tspan837"
+           x="54.032322"
+           y="38.877361"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:24.04133415px;font-family:'A Charming Font Expanded';-inkscape-font-specification:'A Charming Font Expanded, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;writing-mode:lr-tb;text-anchor:middle;stroke-width:12;stroke:#800000;stroke-miterlimit:4;stroke-dasharray:none;stroke-linecap:round;stroke-linejoin:round">Grazie per</tspan><tspan
+           sodipodi:role="line"
+           x="54.032322"
+           y="68.929031"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:24.04133415px;font-family:'A Charming Font Expanded';-inkscape-font-specification:'A Charming Font Expanded, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;writing-mode:lr-tb;text-anchor:middle;stroke-width:12;stroke:#800000;stroke-miterlimit:4;stroke-dasharray:none;stroke-linecap:round;stroke-linejoin:round"
+           id="tspan839">gli Auguri!</tspan></text>
+      <text
+         id="text853"
+         y="38.877361"
+         x="54.032322"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:24.04133415px;line-height:1.25;font-family:'A Charming Font Expanded';-inkscape-font-specification:'A Charming Font Expanded, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#ff6600;fill-opacity:1;stroke:#ff6600;stroke-width:7;stroke-miterlimit:4;stroke-dasharray:none;stroke-linecap:round;stroke-linejoin:round"
+         xml:space="preserve"><tspan
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:24.04133415px;font-family:'A Charming Font Expanded';-inkscape-font-specification:'A Charming Font Expanded, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;writing-mode:lr-tb;text-anchor:middle;stroke-width:7;stroke:#ff6600;stroke-miterlimit:4;stroke-dasharray:none;stroke-linecap:round;stroke-linejoin:round;fill:#ff6600"
+           y="38.877361"
+           x="54.032322"
+           id="tspan849"
+           sodipodi:role="line">Grazie per</tspan><tspan
+           id="tspan851"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:24.04133415px;font-family:'A Charming Font Expanded';-inkscape-font-specification:'A Charming Font Expanded, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;writing-mode:lr-tb;text-anchor:middle;stroke-width:7;stroke:#ff6600;stroke-miterlimit:4;stroke-dasharray:none;stroke-linecap:round;stroke-linejoin:round;fill:#ff6600"
+           y="68.929031"
+           x="54.032322"
+           sodipodi:role="line">gli Auguri!</tspan></text>
+      <text
+         id="text833"
+         y="38.877361"
+         x="54.032322"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:24.04133415px;line-height:1.25;font-family:'A Charming Font Expanded';-inkscape-font-specification:'A Charming Font Expanded, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#ffeeaa;fill-opacity:1;stroke:none;stroke-width:0.60105956;"
+         xml:space="preserve"><tspan
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:24.04133415px;font-family:'A Charming Font Expanded';-inkscape-font-specification:'A Charming Font Expanded, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;writing-mode:lr-tb;text-anchor:middle;stroke-width:0.60105956;fill:#ffeeaa;"
+           y="38.877361"
+           x="54.032322"
+           id="tspan831"
+           sodipodi:role="line">Grazie per</tspan><tspan
+           id="tspan835"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:24.04133415px;font-family:'A Charming Font Expanded';-inkscape-font-specification:'A Charming Font Expanded, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;writing-mode:lr-tb;text-anchor:middle;stroke-width:0.60105956;fill:#ffeeaa;"
+           y="68.929031"
+           x="54.032322"
+           sodipodi:role="line">gli Auguri!</tspan></text>
     </g>
   </g>
 </svg>

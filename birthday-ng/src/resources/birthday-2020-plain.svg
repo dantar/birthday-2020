@@ -52,6 +52,7 @@
        y="2" />
   </g>
   <g
+     style="display:none"
      id="layer2">
     <g
        id="score">
@@ -63,20 +64,74 @@
          id="text3731"
          y="66.927086"
          x="50.337009"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:53.33333206px;line-height:1.25;font-family:'AR JULIAN';-inkscape-font-specification:'AR JULIAN, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#ffcc00;fill-opacity:1;stroke:#ffe680;stroke-width:6;stroke-miterlimit:4;stroke-dasharray:none;"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:53.33333206px;line-height:1.25;font-family:'AR JULIAN';-inkscape-font-specification:'AR JULIAN, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#ffcc00;fill-opacity:1;stroke:#ffe680;stroke-width:6;stroke-miterlimit:4;stroke-dasharray:none"
          xml:space="preserve"><tspan
            y="66.927086"
            x="50.337009"
            id="tspan3729">59</tspan></text>
       <text
          xml:space="preserve"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:53.33333206px;line-height:1.25;font-family:'AR JULIAN';-inkscape-font-specification:'AR JULIAN, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#554400;fill-opacity:1;stroke:none;"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:53.33333206px;line-height:1.25;font-family:'AR JULIAN';-inkscape-font-specification:'AR JULIAN, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#554400;fill-opacity:1;stroke:none"
          x="50.337009"
          y="66.927086"
          id="text3727"><tspan
            id="tspan3725"
            x="50.337009"
            y="66.927086">59</tspan></text>
+    </g>
+  </g>
+  <g
+     id="layer3">
+    <g
+       id="grazie">
+      <circle
+         style="opacity:1;vector-effect:none;fill:#800000;fill-opacity:1;stroke:none;stroke-width:13.090909;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
+         id="path855"
+         cx="50"
+         cy="50"
+         r="40" />
+      <text
+         id="text841"
+         y="38.877361"
+         x="54.032322"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:24.04133415px;line-height:1.25;font-family:'A Charming Font Expanded';-inkscape-font-specification:'A Charming Font Expanded, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:#800000;stroke-width:12;stroke-miterlimit:4;stroke-dasharray:none;stroke-linecap:round;stroke-linejoin:round"
+         xml:space="preserve"><tspan
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:24.04133415px;font-family:'A Charming Font Expanded';-inkscape-font-specification:'A Charming Font Expanded, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;writing-mode:lr-tb;text-anchor:middle;stroke-width:12;stroke:#800000;stroke-miterlimit:4;stroke-dasharray:none;stroke-linecap:round;stroke-linejoin:round"
+           y="38.877361"
+           x="54.032322"
+           id="tspan837">Grazie per</tspan><tspan
+           id="tspan839"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:24.04133415px;font-family:'A Charming Font Expanded';-inkscape-font-specification:'A Charming Font Expanded, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;writing-mode:lr-tb;text-anchor:middle;stroke-width:12;stroke:#800000;stroke-miterlimit:4;stroke-dasharray:none;stroke-linecap:round;stroke-linejoin:round"
+           y="68.929031"
+           x="54.032322">gli Auguri!</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:24.04133415px;line-height:1.25;font-family:'A Charming Font Expanded';-inkscape-font-specification:'A Charming Font Expanded, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#ff6600;fill-opacity:1;stroke:#ff6600;stroke-width:7;stroke-miterlimit:4;stroke-dasharray:none;stroke-linecap:round;stroke-linejoin:round"
+         x="54.032322"
+         y="38.877361"
+         id="text853"><tspan
+           id="tspan849"
+           x="54.032322"
+           y="38.877361"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:24.04133415px;font-family:'A Charming Font Expanded';-inkscape-font-specification:'A Charming Font Expanded, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;writing-mode:lr-tb;text-anchor:middle;stroke-width:7;stroke:#ff6600;stroke-miterlimit:4;stroke-dasharray:none;stroke-linecap:round;stroke-linejoin:round;fill:#ff6600">Grazie per</tspan><tspan
+           x="54.032322"
+           y="68.929031"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:24.04133415px;font-family:'A Charming Font Expanded';-inkscape-font-specification:'A Charming Font Expanded, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;writing-mode:lr-tb;text-anchor:middle;stroke-width:7;stroke:#ff6600;stroke-miterlimit:4;stroke-dasharray:none;stroke-linecap:round;stroke-linejoin:round;fill:#ff6600"
+           id="tspan851">gli Auguri!</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:24.04133415px;line-height:1.25;font-family:'A Charming Font Expanded';-inkscape-font-specification:'A Charming Font Expanded, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#ffeeaa;fill-opacity:1;stroke:none;stroke-width:0.60105956;"
+         x="54.032322"
+         y="38.877361"
+         id="text833"><tspan
+           id="tspan831"
+           x="54.032322"
+           y="38.877361"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:24.04133415px;font-family:'A Charming Font Expanded';-inkscape-font-specification:'A Charming Font Expanded, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;writing-mode:lr-tb;text-anchor:middle;stroke-width:0.60105956;fill:#ffeeaa;">Grazie per</tspan><tspan
+           x="54.032322"
+           y="68.929031"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:24.04133415px;font-family:'A Charming Font Expanded';-inkscape-font-specification:'A Charming Font Expanded, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;writing-mode:lr-tb;text-anchor:middle;stroke-width:0.60105956;fill:#ffeeaa;"
+           id="tspan835">gli Auguri!</tspan></text>
     </g>
   </g>
 </svg>

@@ -98,7 +98,7 @@ export class GameplayComponent implements OnInit {
   }
 
   completeStage() {
-    this.shared.newGame();
+    this.shared.game.state = 'complete';
   }
 
 }

@@ -2,12 +2,22 @@
 
 @font-face {
     font-family: 'AR JULIAN';
-    src: url(/assets/ar-julian.ttf) format("truetype");
+    src: url(./assets/ttf/ar-julian.ttf) format("truetype");
     font-weight:300;
 }
 
 @font-face {
-    font-family: 'Garamond-Regular';
-    src: url(/assets/Garamond-Regular.ttf) format("truetype");
+    font-family: 'A Charming Font Expanded';
+    src: url(./assets/ttf/charming-expanded.ttf) format("truetype");
     font-weight:300;
+}
+
+.bg-full {
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-image: url("assets/bg-200.png");
+    background-repeat: repeat;
 }

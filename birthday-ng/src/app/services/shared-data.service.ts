@@ -22,6 +22,7 @@ export class SharedDataService {
     this.game = {
       size: 4,
       tiles: [],
+      score: 0,
     };
     let selected = this.alltiles.map(t=>t);
     this.games.shuffle(selected);

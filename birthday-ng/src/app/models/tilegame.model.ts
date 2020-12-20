@@ -1,8 +1,8 @@
 export class TileGame {
 
     size: number;
-
     tiles: MapTile[];
+    score: number;
 
 }
 

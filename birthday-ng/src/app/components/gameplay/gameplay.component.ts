@@ -12,8 +12,8 @@ export class GameplayComponent implements OnInit {
 
   first: MapTile;
   second: MapTile;
-  timer: any;
   match: boolean;
+  timer: any;
 
   constructor(
     public shared: SharedDataService,

@@ -37,6 +37,7 @@ export class AudioPlayService {
       this.currentTheme = this.audios[name];
       this.currentTheme.play();
       this.currentTheme.loop = true;
+      this.currentTheme.volume = 0.4;
     }
   }
 

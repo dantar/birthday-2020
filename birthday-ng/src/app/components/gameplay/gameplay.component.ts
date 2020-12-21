@@ -1,7 +1,9 @@
-import { ChangeDetectorRef, Component, OnInit } from '@angular/core';
+import { ChangeDetectorRef, Component, OnInit, ViewChild } from '@angular/core';
 import { MapTile } from 'src/app/models/tilegame.model';
 import { AudioPlayService } from 'src/app/services/audio-play.service';
+import { HighscoresService } from 'src/app/services/highscores.service';
 import { SharedDataService } from 'src/app/services/shared-data.service';
+import { TimedScoreComponent } from '../timed-score/timed-score.component';
 
 @Component({
   selector: 'app-gameplay',
@@ -14,9 +16,13 @@ export class GameplayComponent implements OnInit {
   second: MapTile;
   match: boolean;
   timer: any;
+  pause: boolean;
+
+  @ViewChild("timedscore") timedscore: TimedScoreComponent;
 
   constructor(
     public shared: SharedDataService,
+    public scores: HighscoresService,
     private changes: ChangeDetectorRef,
     private audio: AudioPlayService,
     ) { }
@@ -25,6 +31,7 @@ export class GameplayComponent implements OnInit {
     this.match = false;
     this.first = null;
     this.second = null;
+    this.pause = false;
   }
 
   viewBox() {
@@ -98,7 +105,14 @@ export class GameplayComponent implements OnInit {
   }
 
   completeStage() {
+    this.audio.play('evviva');
     this.shared.game.state = 'complete';
+    this.scores.score({player: 'daniele', score: this.shared.game.score});
+  }
+
+  doneHighScores() {
+    this.shared.game.state = 'running';
+    this.timedscore.startTicker();
   }
 
 }

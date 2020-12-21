@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, EventEmitter, OnInit, Output } from '@angular/core';
 import { SharedDataService } from 'src/app/services/shared-data.service';
 
 @Component({
@@ -9,6 +9,8 @@ import { SharedDataService } from 'src/app/services/shared-data.service';
 export class TimedScoreComponent implements OnInit {
 
   ticker: any;
+
+  @Output() pause = new EventEmitter();
 
   constructor(
     public shared: SharedDataService,
@@ -37,7 +39,25 @@ export class TimedScoreComponent implements OnInit {
   }
 
   pauseTicker() {
+    if (this.ticker) {
+      clearInterval(this.ticker);
+    }
     this.ticker = null;
+  }
+
+  clickScore() {
+    switch (this.shared.game.state) {
+      case 'running':
+        this.shared.game.state = 'paused';
+        this.pauseTicker();
+        break;
+      case 'paused':
+        this.shared.game.state = 'running';
+        this.startTicker();
+        break;
+      default:
+        break;
+    }
   }
 
 }

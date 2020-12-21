@@ -11,6 +11,7 @@ export class AudioPlayService {
   constructor() {
     this.audios = {};
     this.register('action', 'assets/action.ogg');
+    this.register('evviva', 'assets/evviva.wav');
     this.register('theme-01', 'assets/theme-01.mp3');
   }
 
@@ -37,7 +38,7 @@ export class AudioPlayService {
       this.currentTheme = this.audios[name];
       this.currentTheme.play();
       this.currentTheme.loop = true;
-      this.currentTheme.volume = 0.4;
+      this.currentTheme.volume = 0.2;
     }
   }
 

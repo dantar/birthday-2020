@@ -71,6 +71,8 @@
     <div *ngFor="let score of scores.highscores.highscores">{{score.player}}: {{score.score}}s</div>
 </div>
 
+<app-register-score *ngIf="shared.game.state==='entername'" ></app-register-score>
+
 <div class="panel-menu-list top-left-menu">
   <div class="panel-menu-item">
     <svg viewBox="0 0 100 100">

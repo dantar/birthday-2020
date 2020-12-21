@@ -23,9 +23,17 @@
 }
 
 .bg-scores {
-    background-color: rgba(255, 255, 255, 0.5);
-    h1 {
-        text-justify: center;
-        font-family: 'AR JULIAN';
+    background-color: rgba(255, 255, 255, 0.6);
+    text-align: center;
+    font-family: 'AR JULIAN';
+    div {
+        padding-top: 10px;
     }
+}
+
+.button {
+    padding: 5px;
+    margin: 5px;
+    background-color: #ffeeaa;
+    border: 1px solid #806600;
 }

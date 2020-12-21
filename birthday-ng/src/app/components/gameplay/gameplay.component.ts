@@ -107,7 +107,6 @@ export class GameplayComponent implements OnInit {
   completeStage() {
     this.audio.play('evviva');
     this.shared.game.state = 'complete';
-    this.scores.score({player: 'daniele', score: this.shared.game.score});
   }
 
   doneHighScores() {

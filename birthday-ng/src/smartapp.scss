@@ -26,6 +26,7 @@
     height:100%;
     overflow: auto;
     @media screen and (orientation:portrait) {
+        padding-top: 70px;
         margin-bottom: 70px;
         padding-bottom: 70px;
     }

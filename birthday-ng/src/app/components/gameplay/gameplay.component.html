@@ -70,13 +70,14 @@
     <h1>Pausa</h1>
     <div *ngIf="scores.highscores.highscores.length > 0">
         <h1>Classifica</h1>
-        <div class="scrollable">
+        <div>
             <div *ngFor="let score of scores.highscores.highscores">
                 <div>{{score.player}}</div>
                 <div><strong>{{score.score}}</strong> secondi</div>
             </div>
         </div>
     </div>
+    <div style="height: 70px;"></div>
 </div>
 
 <app-register-score *ngIf="shared.game.state==='entername'" ></app-register-score>

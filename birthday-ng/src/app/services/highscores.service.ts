@@ -11,7 +11,13 @@ export class HighscoresService {
   highscores: HighScoresDto;
 
   constructor(private http: HttpClient) {
-    this.highscores = {highscores: []};
+    let stored = localStorage.getItem('birthdayhighscores');
+    if (stored) {
+      this.highscores = JSON.parse(stored);
+    } else {
+      this.highscores = {highscores: []};
+      localStorage.setItem('birthdayhighscores', JSON.stringify(this.highscores));
+    }
     this.refresh();
   }
 
@@ -20,6 +26,7 @@ export class HighscoresService {
     .subscribe(
       (hs: HighScoresDto) => {
         this.highscores = hs;
+        localStorage.setItem('birthdayhighscores', JSON.stringify(this.highscores));
       },
       (error) => {
         console.log(error);

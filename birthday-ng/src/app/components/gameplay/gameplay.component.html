@@ -68,15 +68,7 @@
 
 <div *ngIf="shared.game.state==='paused'" class="fullpage bg-scores" (click)="doneHighScores()">
     <h1>Pausa</h1>
-    <div *ngIf="scores.highscores.highscores.length > 0">
-        <h1>Classifica</h1>
-        <div>
-            <div *ngFor="let score of scores.highscores.highscores">
-                <div>{{score.player}}</div>
-                <div><strong>{{score.score}}</strong> secondi</div>
-            </div>
-        </div>
-    </div>
+    <app-classifica *ngIf="scores.highscores.highscores.length > 0"></app-classifica>
     <div style="height: 70px;"></div>
 </div>
 

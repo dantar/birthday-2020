@@ -13,6 +13,7 @@ import { FullscreenToggleComponent } from './components/fullscreen-toggle/fullsc
 import { TimedScoreComponent } from './components/timed-score/timed-score.component';
 import { ThanksComponent } from './components/thanks/thanks.component';
 import { RegisterScoreComponent } from './components/register-score/register-score.component';
+import { ClassificaComponent } from './components/classifica/classifica.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { RegisterScoreComponent } from './components/register-score/register-sco
     FullscreenToggleComponent,
     TimedScoreComponent,
     ThanksComponent,
-    RegisterScoreComponent
+    RegisterScoreComponent,
+    ClassificaComponent
   ],
   imports: [
     BrowserModule,

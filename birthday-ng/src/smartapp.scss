@@ -25,6 +25,14 @@
     left: 0; right:0; top:0;
     height:100%;
     overflow: auto;
+    @media screen and (orientation:portrait) {
+        margin-bottom: 70px;
+        padding-bottom: 70px;
+    }
+    @media screen and (orientation:landscape) {
+        margin-bottom: 10px;
+        padding-bottom: 10px;
+    }
 }
 
 .splitview {
@@ -155,6 +163,7 @@
         padding-right: 70px;
         padding-left: 70px;
         padding-bottom: 10px;
+        margin-bottom: 30px;
     }
     .splash-title {
         div {

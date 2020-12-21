@@ -1,5 +1,5 @@
 <app-thanks></app-thanks>
-<svg class="fullsvg" [attr.viewBox]="viewBox()">
+<svg class="fullsvg" [attr.viewBox]="viewBox()" *ngIf="['running', 'paused'].includes(this.shared.game.state)">
     <defs>
         <clipPath
             id="clipPath1010"
@@ -68,13 +68,21 @@
 
 <div *ngIf="shared.game.state==='paused'" class="fullpage bg-scores" (click)="doneHighScores()">
     <h1>Pausa</h1>
-    <div *ngFor="let score of scores.highscores.highscores">{{score.player}}: {{score.score}}s</div>
+    <div *ngIf="scores.highscores.highscores.length > 0">
+        <h1>Classifica</h1>
+        <div class="scrollable">
+            <div *ngFor="let score of scores.highscores.highscores">
+                <div>{{score.player}}</div>
+                <div><strong>{{score.score}}</strong> secondi</div>
+            </div>
+        </div>
+    </div>
 </div>
 
 <app-register-score *ngIf="shared.game.state==='entername'" ></app-register-score>
 
 <div class="panel-menu-list top-left-menu">
-  <div class="panel-menu-item">
+  <div class="panel-menu-item" *ngIf="shared.game.state!='entername'">
     <svg viewBox="0 0 100 100">
         <g #timedscore app-timed-score></g>
     </svg>

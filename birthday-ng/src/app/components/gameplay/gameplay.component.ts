@@ -87,6 +87,7 @@ export class GameplayComponent implements OnInit {
     if (this.match) {
       this.first.state = 'gone';
       this.second.state = 'gone';
+      this.completeStage();
       if (this.shared.game.tiles.filter(t => t.state !== 'gone').length === 0) {
         this.completeStage();
       }

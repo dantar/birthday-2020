@@ -3,10 +3,17 @@
     <div>
         <strong>{{shared.game.score}}</strong> secondi!
     </div>
-    <div>
-        <input #playerinput type="text" [ngModel]="player" />
+    <div *ngIf="!done">
+        <div>
+            <input #playerinput type="text" [(ngModel)]="player" />
+        </div>
+        <div>
+            <span class="button" [ngClass]="{'disabled': player===''}" (click)="clickRegister()">Registra il tuo punteggio!</span>
+        </div>    
     </div>
-    <div>
-        <span class="button">Registra il tuo punteggio!</span>
+    <div *ngIf="done">
+        <div>
+            <span class="button" (click)="shared.newGame()">Gioca di nuovo!</span>
+        </div>    
     </div>
 </div>

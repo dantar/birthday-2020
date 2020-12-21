@@ -15,4 +15,8 @@ export class ThanksComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  clickThanks() {
+    this.shared.game.state = 'entername';
+  }
+
 }

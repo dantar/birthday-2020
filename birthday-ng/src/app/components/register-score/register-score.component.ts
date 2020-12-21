@@ -12,6 +12,8 @@ export class RegisterScoreComponent implements OnInit, AfterViewInit {
   @ViewChild('playerinput') playerinput: ElementRef;
   player: string;
 
+  done: boolean;
+
   constructor(
     public shared: SharedDataService,
     private scores: HighscoresService,
@@ -22,10 +24,15 @@ export class RegisterScoreComponent implements OnInit, AfterViewInit {
   }
 
   ngOnInit(): void {
+    this.done = false;
+    this.player = '';
   }
 
-  done() {
-    this.scores.score({player: this.player, score: this.shared.game.score});
+  clickRegister() {
+    if (this.player != '') {
+      this.scores.score({player: this.player, score: this.shared.game.score});
+      this.done = true;
+    }
   }
 
 }
